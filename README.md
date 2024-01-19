@@ -1,4 +1,5 @@
 README - Banco de Dados: Log de Alunos Deletados.
+
 Este repositório contém um exemplo simples de código SQL que ilustra a criação de uma tabela chamada log_alunos_deletados e a implementação de uma trigger associada na gestão de um banco de dados. O objetivo principal é demonstrar como registrar informações sobre alunos deletados da tabela principal (alunos) em uma tabela de log (log_alunos_deletados).
 
 Estrutura do Banco de Dados
