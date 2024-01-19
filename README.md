@@ -29,7 +29,7 @@ nome_aluno_antigo: Nome do aluno antes da exclusão.
 disciplina_associada: Disciplina associada ao aluno deletado.
 data_deletado: Data e hora da exclusão.
 
-Utilização
+Utilização:
 1.	Execução do Script SQL:
 •	Execute o script SQL em um ambiente compatível com o MySQL ou outro sistema de gerenciamento de banco de dados.
 2.	Exclusão de Alunos:
