@@ -17,6 +17,7 @@ disciplina_associada: Disciplina associada ao aluno deletado.
 data_deletado: Data e hora da exclusão.
 
 Trigger de Exclusão
+
 Foi implementada uma trigger chamada trig_aluno_deletado na tabela alunos para automatizar o processo de registro de alunos deletados. Essa trigger é acionada automaticamente após a exclusão de um aluno, registrando as informações relevantes na tabela log_alunos_deletados.
 Funcionamento da Trigger:
 1.	Identificação do Aluno Deletado:
