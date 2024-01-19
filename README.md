@@ -16,9 +16,9 @@ nome_aluno_antigo: Nome do aluno antes da exclusão.
 disciplina_associada: Disciplina associada ao aluno deletado.
 data_deletado: Data e hora da exclusão.
 
-Trigger de Exclusão
-
+Trigger de Exclusão.
 Foi implementada uma trigger chamada trig_aluno_deletado na tabela alunos para automatizar o processo de registro de alunos deletados. Essa trigger é acionada automaticamente após a exclusão de um aluno, registrando as informações relevantes na tabela log_alunos_deletados.
+
 Funcionamento da Trigger:
 1.	Identificação do Aluno Deletado:
 Ao excluir um aluno da tabela alunos, a trigger é acionada automaticamente.
@@ -37,5 +37,6 @@ Utilização
 •	Exemplo: DELETE FROM alunos WHERE id_aluno = [ID_DO_ALUNO];
 3.	Consulta de Logs:
 •	Consulte a tabela log_alunos_deletados para visualizar os registros de alunos deletados.
+
 Observações:
 Este projeto é um exemplo educativo e pode ser adaptado para atender a diferentes requisitos específicos de banco de dados. Sinta-se à vontade para explorar e modificar conforme necessário.
